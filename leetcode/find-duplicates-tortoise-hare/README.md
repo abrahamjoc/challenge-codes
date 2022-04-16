@@ -5,5 +5,5 @@ https://www.youtube.com/watch?v=pKO9UjSeLew
 
 | Topic         | Link                                                            |
 |---------------|-----------------------------------------------------------------|
-| Exercise      | https://leetcode.com/problems/find-the-duplicate-number/        |
+| Exercise      | https://leetcode.com/problems/find-the-duplicate-number         |
 | Documentation | https://en.wikipedia.org/wiki/Cycle_detection#Tortoise_and_hare |
