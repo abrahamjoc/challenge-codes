@@ -1,6 +1,6 @@
 ## Sudoku Solver with backtracking algorithm
 
-This exercise was resolved wtih backtracking algorithm in honor a project of my university when I was a student.
+This exercise was resolved with backtracking algorithm in honor a project of my university when I was a student.
 
 | Topic         | Link                                       |
 |---------------|--------------------------------------------|
