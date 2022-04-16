@@ -1,7 +1,7 @@
 ## Find duplicates numbers with tortoise and hare algorithm
 
-This exercise was resolved with tortoise and hare algorithm in honor of Joma Tech's video in Youtube 
-https://www.youtube.com/watch?v=pKO9UjSeLew .
+This exercise was resolved with tortoise and hare algorithm in honor of Joma Tech's video in Youtube: 
+https://www.youtube.com/watch?v=pKO9UjSeLew
 
 | Topic         | Link                                                            |
 |---------------|-----------------------------------------------------------------|
