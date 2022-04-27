@@ -24,6 +24,6 @@ func main() {
 		fmt.Print("Sudoku Solution:")
 		sudoku.PrintBoard(boardResolved)
 	} else {
-		fmt.Println("Sudoku cannot resolve")
+		fmt.Println("Sudoku cannot be resolved")
 	}
 }
