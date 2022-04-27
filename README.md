@@ -4,10 +4,12 @@ This repository contains documentation and solved exercises proposed for learnin
 basically for my fun and curiosity.
 
 ### leetcode
-
-- [find duplicates numbers](./leetcode/find-duplicates-tortoise-hare)
+| Challenge                                                           | Language | Description                                                                           |
+|---------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------|
+| [Find Duplicates Numbers](./leetcode/find-duplicates-tortoise-hare) | Go       | Find a duplicate number in an array using floyd's algorithm called tortoise and hare. |
 
 ### non-platform
-
-- [hangman game](./non-platform/hangman-game)
-- [sudoku solver](./non-platform/sudoku-solver)
+| Challenge                                     | Language | Description                                                                                     |
+|-----------------------------------------------|----------|-------------------------------------------------------------------------------------------------|
+| [Hangman Game](./non-platform/hangman-game)   | JS       | Hangman Game is a game where you have to figure out a suggested word before you lose all tries. |
+| [Sudoku Solver](./non-platform/sudoku-solver) | Go       | Sudoku Solver using backtracking algorithm.                                                     |
