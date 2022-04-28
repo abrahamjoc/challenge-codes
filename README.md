@@ -15,6 +15,6 @@ basically for my fun and curiosity.
 | [Sudoku Solver](./projects/sudoku-solver) | Go       | Sudoku Solver using backtracking algorithm.                                                     |
 
 ### Languages
-| Name                                             | Documentation                                   |
-|--------------------------------------------------|-------------------------------------------------|
-| [Assembler x86_84](./languages/assembler x86_64) | https://en.wikipedia.org/wiki/Assembly_language |
+| Name                                                  | Documentation                                   |
+|-------------------------------------------------------|-------------------------------------------------|
+| [NASM Assembler x86_84](./languages/assembler_x86_64) | https://en.wikipedia.org/wiki/Netwide_Assembler |
