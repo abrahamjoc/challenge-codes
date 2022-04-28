@@ -82,7 +82,7 @@ make e${N}
 | Image | [x86_64 System V ABI Args](https://images4.programmerclick.com/795/30/303724c2b0b8c90f201fb05cadaa8563.png)                        | Function arguments in x86_64 System V ABI         |
 | Image | [Directive Data Allocation Bytes](https://slideplayer.com/slide/4552449/15/images/8/Data+Allocation+%28cont%E2%80%99d%29.jpg)      | How many bytes are in x86_64 NASM Directives      |
 | Image | [Directive Data Allocation Data Type](https://slideplayer.com/slide/4552449/15/images/13/Data+Allocation+%28cont%E2%80%99d%29.jpg) | What data type belongs to a NASM x86_64 Directive |
-| Image | [Modifiers Represent in Bits](https://slidetodoc.com/presentation_image_h/845310c8f35f2b1e801a9590f0752472/image-28.jpg)           | Casting address memory in MOV                     |
+| Image | [Modifiers in Bits](https://slidetodoc.com/presentation_image_h/845310c8f35f2b1e801a9590f0752472/image-28.jpg)           | Casting address memory in MOV                     |
 | Web   | [NASM x86 Assembly Quick Reference "Cheat Sheet"](https://www.cs.uaf.edu/2005/fall/cs301/support/x86/nasm.html)                    | Data Sheet which contains all mnemonics for NASM  |
 
 
