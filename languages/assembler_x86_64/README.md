@@ -1,7 +1,7 @@
 ## Assembler exercises
 
-These exercises were resolved using Assembler x86_64 Linux with GCC and NASM in honor to my curiosity for how works an 
-OS in low-level and to learn Linux interruptions for making an OS from scratch.
+These exercises were resolved using Linux and NASM Assembler x86_64 with GCC in honor to my curiosity for knowing how
+works an OS in low-level and to learn Linux interruptions for making an OS from scratch.
 
 #### How to run an exercise:
 ```shell
