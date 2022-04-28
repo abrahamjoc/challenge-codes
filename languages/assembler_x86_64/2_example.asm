@@ -19,7 +19,7 @@ main:
     call printf    ; printf(msg);
 
     mov rsp, rbp   ; restore old stack frame
-	pop rbp
+    pop rbp
 
     mov	rax, 0     ; return 0
     ret
