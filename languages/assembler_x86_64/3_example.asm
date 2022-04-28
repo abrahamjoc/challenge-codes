@@ -32,5 +32,5 @@ main:                       ; main function
     call sum                ; execute sum function
 
     mov rsp, rbp            ; restore old stack frame
-	pop rbp
-	ret                     ; return result code in rax
+    pop rbp
+    ret                     ; return result code in rax

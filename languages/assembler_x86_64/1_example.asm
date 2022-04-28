@@ -15,7 +15,7 @@ main:
     push rbp      ; create new stack frame
     mov rbp, rsp
 
-	mov rax, 1    ; system call for write
+    mov rax, 1    ; system call for write
     mov rdi, 1    ; stdout
     mov rsi, msg  ; address of string to output
     mov rdx, mlen ; number of bytes of msg
