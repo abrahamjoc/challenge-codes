@@ -22,8 +22,8 @@ main:
     syscall       ; invoke operating system to do the write
 
     mov rsp, rbp  ; restore old stack frame
-	pop rbp
-
-	mov rax, 60   ; system call for exit
-	mov rdi, 1    ; exit code 1
-	syscall       ; invoke operating system to exit
+    pop rbp
+    
+    mov rax, 60   ; system call for exit
+    mov rdi, 1    ; exit code 1
+    syscall       ; invoke operating system to exit
