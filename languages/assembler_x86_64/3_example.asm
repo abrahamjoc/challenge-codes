@@ -15,9 +15,9 @@ sum:                        ; sum function
     mov [rbp-8] , rdi       ; local variable from parameter 1
     mov [rbp-16], rsi       ; local variable from parameter 2
 
-    mov edx, [rbp-8]        ; set parameter 1 in rdx
-    mov eax, [rbp-16]       ; set parameter 2 in rax
-    add eax, edx            ; rax = rax + rdx
+    mov rdx, [rbp-8]        ; set parameter 1 in rdx
+    mov rax, [rbp-16]       ; set parameter 2 in rax
+    add rax, rdx            ; rax = rax + rdx
 
     mov rsp, rbp            ; restore old stack frame
     pop rbp
