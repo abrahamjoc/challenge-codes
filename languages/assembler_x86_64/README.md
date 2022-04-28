@@ -76,7 +76,7 @@ make e${N}
 | Video | [Qué es un Compilador y cómo funciona](https://www.youtube.com/watch?v=rsdgu-vxjio)                                                                                                                                                                        |
 
 
-#### Reference when you are programming:
+### References for when you are programming:
 | Type  | Topic                                                                                                                              | Description                                       |
 |-------|------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
 | Image | [x86_64 System V ABI Args](https://images4.programmerclick.com/795/30/303724c2b0b8c90f201fb05cadaa8563.png)                        | Function arguments in x86_64 System V ABI         |
@@ -86,7 +86,7 @@ make e${N}
 | Web   | [NASM x86 Assembly Quick Reference "Cheat Sheet"](https://www.cs.uaf.edu/2005/fall/cs301/support/x86/nasm.html)                    | Data Sheet which contains all mnemonics for NASM  |
 
 
-#### Debugging Tools:
+### Debugging Tools:
 | Tool Name              | Description                                 | Link                                                            |
 |------------------------|---------------------------------------------|-----------------------------------------------------------------|
 | 8 bit Asm Simulator    | Basic concepts around registers and stack   | https://schweigi.github.io/assembler-simulator/                 |
