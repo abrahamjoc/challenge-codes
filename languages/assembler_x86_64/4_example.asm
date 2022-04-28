@@ -27,18 +27,18 @@ main:
 
     mov r12, 0              ; set i=0
 .loop:
-    mov rax, [rbp-16]       ; set address of argv        = **argv
-    lea rax, [rax + 8*r12]  ; set address of [i] of argv = *argv[i]
-    mov rax, [rax]          ; set address of argv[i]     = argv[i]
+    mov rax, [rbp-16]       ; load address of argv   = **argv
+    lea rax, [rax + 8*r12]  ; calculate [i] of argv  = *argv[i]
+    mov rax, [rax]          ; set address of argv[i] = argv[i]
 
-    mov rdi, arg_value      ; set 1th parameter          = *arg_value
-    mov rsi, r12            ; set 2th parameter          = i
-    mov rdx, rax            ; set 3th parameter          = char* argv[i]
-    call printf
+    mov rdi, arg_value      ; set 1th parameter      = *arg_value
+    mov rsi, r12            ; set 2th parameter      = i
+    mov rdx, rax            ; set 3th parameter      = char* argv[i]
+    call printf             ; printf(arg_value, i, argv[i]);
 
     inc r12                 ; i++
-    cmp r12, [rbp-8]        ; if ( i < argc )
-    jl .loop                ; jump to .loop if true
+    cmp r12, [rbp-8]        ; compare i and argc
+    jl .loop                ; goto to .loop if ( i < argc )
 
     mov rsp, rbp            ; restore old stack frame
     pop rbp
