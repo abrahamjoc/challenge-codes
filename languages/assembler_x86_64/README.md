@@ -9,12 +9,13 @@ make e${N}
 ```
 
 ### Exercise Table:
-| N   | Exercise        | Description                                                            | Run     |
-|-----|-----------------|------------------------------------------------------------------------|---------|
-| 1   | hello world     | *Writes "Hello, World!" to the console using only system calls.*       | make e1 |
-| 2   | external printf | *Writes "Hello, World!" to the console using printf from stdio lib c.* | make e2 |
-| 3   | sum function    | *Return "the result of a sum function with 2 values".*                 | make e3 |
-| 4   | print argv      | *Writes "arguments" passed it into the program to the console.*        | make e4 |
+| N   | Exercise         | Description                                                            | Run     |
+|-----|------------------|------------------------------------------------------------------------|---------|
+| 1   | hello world      | *Writes "Hello, World!" to the console using only system calls.*       | make e1 |
+| 2   | external printf  | *Writes "Hello, World!" to the console using printf from stdio lib c.* | make e2 |
+| 3   | sum function     | *Return "the result of a sum function with 2 values".*                 | make e3 |
+| 4   | print argv       | *Writes "arguments" passed it into the program to the console.*        | make e4 |
+| 5   | max of 3 numbers | *Return the maximum number between 3 numbers without function.*        | make e5 |
 
 
 ### Topics, Concepts and References of Interest:
