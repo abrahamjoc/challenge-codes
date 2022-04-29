@@ -9,13 +9,13 @@ make e${N}
 ```
 
 ### Exercise Table:
-| N   | Exercise         | Description                                                            | Run     |
-|-----|------------------|------------------------------------------------------------------------|---------|
-| 1   | hello world      | *Writes "Hello, World!" to the console using only system calls.*       | make e1 |
-| 2   | external printf  | *Writes "Hello, World!" to the console using printf from stdio lib c.* | make e2 |
-| 3   | sum function     | *Return "the result of a sum function with 2 values".*                 | make e3 |
-| 4   | print argv       | *Writes "arguments" passed it into the program to the console.*        | make e4 |
-| 5   | max of 3 numbers | *Return the maximum number between 3 numbers without function.*        | make e5 |
+| N   | Exercise         | Description                                                            | Concepts                                       | Run     |
+|-----|------------------|------------------------------------------------------------------------|------------------------------------------------|---------|
+| 1   | hello world      | *Writes "Hello, World!" to the console using only system calls.*       | system call, interruption, exit                | make e1 |
+| 2   | external printf  | *Writes "Hello, World!" to the console using printf from stdio lib c.* | linking <stdio.h> :: printf                    | make e2 |
+| 3   | sum function     | *Return "the result of a sum function with 2 values".*                 | call function, local variables                 | make e3 |
+| 4   | print argv       | *Writes "arguments" passed it into the program to the console.*        | int argc, char **argv, pointers, vectors, loop | make e4 |
+| 5   | max of 3 numbers | *Return the maximum number between 3 numbers without function.*        | if -- else                                     | make e5 |
 
 
 ### Topics, Concepts and References of Interest:
