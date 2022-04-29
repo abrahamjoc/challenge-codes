@@ -85,7 +85,7 @@ make e${N}
 | Image | [Directive Data Allocation Data Type](https://slideplayer.com/slide/4552449/15/images/13/Data+Allocation+%28cont%E2%80%99d%29.jpg) | What data type belongs to a NASM x86_64 Directive |
 | Image | [Modifiers in Bits](https://slidetodoc.com/presentation_image_h/845310c8f35f2b1e801a9590f0752472/image-28.jpg)                     | Casting address memory in MOV                     |
 | Web   | [NASM x86 Assembly Quick Reference "Cheat Sheet"](https://www.cs.uaf.edu/2005/fall/cs301/support/x86/nasm.html)                    | Data Sheet which contains all mnemonics for NASM  |
-| PDF   | [x64 Cheat Sheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)                                               |
+| PDF   | [x86_x64 Cheat Sheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)                                           | Complete guide with all kind of information       |
 
 
 ### Debugging Tools:
