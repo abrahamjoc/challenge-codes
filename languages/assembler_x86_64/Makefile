@@ -25,5 +25,10 @@ e5:
 	@gcc 5_${EXAMPLE_FILE}.o -no-pie
 	@./a.out
 
+e6:
+	@nasm -f elf64 6_${EXAMPLE_FILE}.asm
+	@gcc 6_${EXAMPLE_FILE}.o -no-pie
+	@./a.out
+
 clean:
 	@rm -f *.o a.out
