@@ -5,8 +5,8 @@
 ; ----------------------------------------------------------------------------------------
 
 section .data
-args_qty_msg:     db  "This program received %d arguments:", 0x0A, 0
-arg_value_msg:    db  "* %d = %s", 0x0A, 0
+    args_qty_msg:   db "This program received %d arguments:", 0x0A, 0
+    arg_value_msg:  db "* %d = %s", 0x0A, 0
 
 section .text
     global main
