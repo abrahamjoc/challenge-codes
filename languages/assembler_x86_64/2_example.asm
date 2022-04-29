@@ -5,7 +5,7 @@
 ; -----------------------------------------------------------------------------------------------
 
 section .data
-msg:	db	"Hello, world!", 0x0A, 0
+    msg:  db "Hello, world!", 0x0A, 0
 
 section .text
     global main
