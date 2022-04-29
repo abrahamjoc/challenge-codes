@@ -5,9 +5,8 @@
 ; ----------------------------------------------------------------------------------------
 
 section .data
-args_qty_msg:     db  "This program received %d arguments.", 0x0A, 0
-args_passed_msg:  db  "And the arguments passed into program were:", 0x0A, 0
-arg_value_ms:     db  "* %d = %s", 0x0A, 0
+args_qty_msg:     db  "This program received %d arguments:", 0x0A, 0
+arg_value_msg:    db  "* %d = %s", 0x0A, 0
 
 section .text
     global main
@@ -22,7 +21,7 @@ main:
     mov [rbp-16], rsi       ; char **argv
 
     mov rsi, rdi            ; set 2th parameter = argc
-    mov rdi, n_args_str     ; set 1th parameter = address of n_arg_str
+    mov rdi, args_qty_msg   ; set 1th parameter = address of n_arg_str
     call printf             ; printf(n_arg_str, argc);
 
     mov r12, 0              ; set i=0
@@ -31,7 +30,7 @@ main:
     lea rax, [rax + 8*r12]  ; calculate [i] of argv  = *argv[i]
     mov rax, [rax]          ; set address of argv[i] = argv[i]
 
-    mov rdi, arg_value      ; set 1th parameter      = *arg_value
+    mov rdi, arg_value_msg  ; set 1th parameter      = *arg_value
     mov rsi, r12            ; set 2th parameter      = i
     mov rdx, rax            ; set 3th parameter      = char* argv[i]
     call printf             ; printf(arg_value, i, argv[i]);
