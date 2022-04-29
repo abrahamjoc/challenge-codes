@@ -5,9 +5,9 @@
 ; ----------------------------------------------------------------------------------------
 
 section .data
-n_args_str:  db  "This program received %d arguments.", 0x0A, 0
-args_msg:    db  "And the arguments passed into program were:", 0x0A, 0
-arg_value:   db  "* %d = %s", 0x0A, 0
+args_qty_msg:     db  "This program received %d arguments.", 0x0A, 0
+args_passed_msg:  db  "And the arguments passed into program were:", 0x0A, 0
+arg_value_ms:     db  "* %d = %s", 0x0A, 0
 
 section .text
     global main
