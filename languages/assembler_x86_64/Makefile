@@ -20,5 +20,10 @@ e4:
 	@gcc 4_${EXAMPLE_FILE}.o -no-pie
 	@./a.out hello world in assembler with arguments
 
+e5:
+	@nasm -f elf64 5_${EXAMPLE_FILE}.asm
+	@gcc 5_${EXAMPLE_FILE}.o -no-pie
+	@./a.out
+
 clean:
 	@rm -f *.o a.out
