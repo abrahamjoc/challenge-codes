@@ -30,5 +30,10 @@ e6:
 	@gcc 6_${EXAMPLE_FILE}.o -no-pie
 	@./a.out
 
+e7:
+	@nasm -f elf64 7_${EXAMPLE_FILE}.asm
+	@gcc 7_${EXAMPLE_FILE}.o -no-pie
+	@./a.out
+
 clean:
 	@rm -f *.o a.out
