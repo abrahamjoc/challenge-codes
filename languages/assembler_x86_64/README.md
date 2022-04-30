@@ -9,15 +9,15 @@ make e${N}
 ```
 
 ### Exercise Table:
-| N   | Exercise         | Description                                                             | Concepts                                       | Run     |
-|-----|------------------|-------------------------------------------------------------------------|------------------------------------------------|---------|
-| 1   | hello world      | *Writes "Hello, World!" to the console using only system calls.*        | system call, interruption, exit                | make e1 |
-| 2   | external printf  | *Writes "Hello, World!" to the console using printf from stdio lib c.*  | linking <stdio.h> :: printf                    | make e2 |
-| 3   | sum function     | *Return "the result of a sum function with 2 values".*                  | call function, local variables                 | make e3 |
-| 4   | print argv       | *Writes "arguments" passed it into the program to the console.*         | int argc, char **argv, pointers, vectors, loop | make e4 |
-| 5   | max of 3 numbers | *Return the maximum number between 3 numbers without function.*         | if -- else                                     | make e5 |
-| 6   | print array      | *Writes an array values declared previously in program to the console.* | for -- loop                                    | make e6 |
-
+| N   | Exercise              | Description                                                             | Concepts                                       | Run     |
+|-----|-----------------------|-------------------------------------------------------------------------|------------------------------------------------|---------|
+| 1   | hello world           | *Writes "Hello, World!" to the console using only system calls.*        | system call write, interruption, stdout, exit  | make e1 |
+| 2   | external printf       | *Writes "Hello, World!" to the console using printf from stdio lib c.*  | linking <stdio.h> :: printf                    | make e2 |
+| 3   | sum function          | *Return "the result of a sum function with 2 values".*                  | call function, local variables                 | make e3 |
+| 4   | print argv            | *Writes "arguments" passed it into the program to the console.*         | int argc, char **argv, pointers, vectors, loop | make e4 |
+| 5   | max of 3 numbers      | *Return the maximum number between 3 numbers without function.*         | if -- else                                     | make e5 |
+| 6   | print array           | *Writes an array values declared previously in program to the console.* | for -- loop                                    | make e6 |
+| 7   | read and print string | *Reads stdin from console and Writes to console.*                       | system call read, stdin                        | make e7 |                                   
 
 ### Topics, Concepts and References of Interest:
 | Topic                         | Link                                                                             |
@@ -87,7 +87,7 @@ make e${N}
 | Image | [Modifiers in Bits](https://slidetodoc.com/presentation_image_h/845310c8f35f2b1e801a9590f0752472/image-28.jpg)                     | Casting address memory in MOV                     |
 | Web   | [NASM x86 Assembly Quick Reference "Cheat Sheet"](https://www.cs.uaf.edu/2005/fall/cs301/support/x86/nasm.html)                    | Data Sheet which contains all mnemonics for NASM  |
 | PDF   | [x86_x64 Cheat Sheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)                                           | Complete guide with all kind of information       |
-
+| Web   | [NASM Declaring Uninitialized Data 'section .bss'](https://www.nasm.us/xdoc/2.11.06/html/nasmdoc3.html#section-3.2.2)              | Reference to init an array of char (string)       |
 
 ### Debugging Tools:
 | Tool Name              | Description                                 | Link                                                            |
