@@ -85,9 +85,10 @@ make e${N}
 | Image | [Directive Data Allocation Bytes](https://slideplayer.com/slide/4552449/15/images/8/Data+Allocation+%28cont%E2%80%99d%29.jpg)      | How many bytes are in x86_64 NASM Directives      |
 | Image | [Directive Data Allocation Data Type](https://slideplayer.com/slide/4552449/15/images/13/Data+Allocation+%28cont%E2%80%99d%29.jpg) | What data type belongs to a NASM x86_64 Directive |
 | Image | [Modifiers in Bits](https://slidetodoc.com/presentation_image_h/845310c8f35f2b1e801a9590f0752472/image-28.jpg)                     | Casting address memory in MOV                     |
-| Web   | [NASM x86 Assembly Quick Reference "Cheat Sheet"](https://www.cs.uaf.edu/2005/fall/cs301/support/x86/nasm.html)                    | Data Sheet which contains all mnemonics for NASM  |
 | PDF   | [x86_x64 Cheat Sheet](https://cs.brown.edu/courses/cs033/docs/guides/x64_cheatsheet.pdf)                                           | Complete guide with all kind of information       |
+| Web   | [NASM x86 Assembly Quick Reference "Cheat Sheet"](https://www.cs.uaf.edu/2005/fall/cs301/support/x86/nasm.html)                    | Data Sheet which contains all mnemonics for NASM  |
 | Web   | [NASM Declaring Uninitialized Data 'section .bss'](https://www.nasm.us/xdoc/2.11.06/html/nasmdoc3.html#section-3.2.2)              | Reference to init an array of char (string)       |
+| Web   | [NASM Macros](https://www.nasm.us/xdoc/2.15.05/html/nasmdoc4.html#section-4.3)                                                     | How to create a macro in NASM                     |
 
 ### Debugging Tools:
 | Tool Name              | Description                                 | Link                                                            |
