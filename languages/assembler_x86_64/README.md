@@ -9,16 +9,16 @@ make e${N}
 ```
 
 ### Exercise Table:
-| N   | Exercise              | Description                                                               | Concepts                                      | Run     |
-|-----|-----------------------|---------------------------------------------------------------------------|-----------------------------------------------|---------|
-| 1   | hello world           | *Writes "Hello, World!" to the console using only system calls.*          | system call write, interruption, stdout, exit | make e1 |
-| 2   | external printf       | *Writes "Hello, World!" to the console using printf from stdio lib c.*    | linking <stdio.h> :: printf                   | make e2 |
-| 3   | sum function          | *Returns "the result of a sum function with 2 values".*                   | call function, local variables                | make e3 |
-| 4   | print argv            | *Writes the arguments passed it into the program to the console.*         | int argc, char **argv, pointers, array, loop  | make e4 |
-| 5   | max of 3 numbers      | *Returns the maximum number between 3 numbers without function.*          | if -- else                                    | make e5 |
-| 6   | print array           | *Writes a previously declared array of values in program to the console.* | for -- loop                                   | make e6 |
-| 7   | read and print string | *Reads stdin from console and Writes to console.*                         | system call read, stdin                       | make e7 |                                   
-| 8   | sort an number array  | *Sorts a previously declared array of numbers and writes to the console.* | nasm defines and macros, sorting, bubble sort | make e8 |
+| N   | Exercise                 | Description                                                               | Concepts                                      | Run     |
+|-----|--------------------------|---------------------------------------------------------------------------|-----------------------------------------------|---------|
+| 1   | hello world              | *Writes "Hello, World!" to the console using only system calls.*          | system call write, interruption, stdout, exit | make e1 |
+| 2   | external printf          | *Writes "Hello, World!" to the console using printf from stdio lib c.*    | linking <stdio.h> :: printf                   | make e2 |
+| 3   | sum function             | *Returns "the result of a sum function with 2 values".*                   | call function, local variables                | make e3 |
+| 4   | print argv               | *Writes the arguments passed it into the program to the console.*         | int argc, char **argv, pointers, array, loop  | make e4 |
+| 5   | max of 3 numbers         | *Returns the maximum number between 3 numbers without function.*          | if -- else                                    | make e5 |
+| 6   | print array              | *Writes a previously declared array of values in program to the console.* | for -- loop                                   | make e6 |
+| 7   | read and print string    | *Reads stdin from console and Writes to console.*                         | system call read, stdin                       | make e7 |                                   
+| 8   | sort an array of numbers | *Sorts a previously declared array of numbers and writes to the console.* | nasm defines and macros, sorting, bubble sort | make e8 |
 
 
 ### Topics, Concepts and References of Interest:
