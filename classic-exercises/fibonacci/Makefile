@@ -16,5 +16,9 @@ memoization_fibonacci: memoization_fibonacci.c
 dynamic_programming_fibonacci: dynamic_programming_fibonacci.c
 	$(CC) $(CFLAGS) -o dynamic_programming_fibonacci dynamic_programming_fibonacci.c
 
+# https://github.com/cpplint/cpplint
+c-lint:
+	cpplint --filter=-readability/casting,-legal/copyright,-runtime/arrays *.c
+
 clean:
 	$(RM) $(TARGET)

@@ -19,7 +19,7 @@ void calcFibonacci(int n) {
 }
 
 int main(int argc, char* argv[]) {
-    if ( argc < 2) {
+    if ( argc < 2 ) {
         fprintf(stderr, "Usage: %s [-r] N\n", argv[0]);
         return -1;
     }
@@ -33,11 +33,11 @@ int main(int argc, char* argv[]) {
             exit(1);
         }
     }
-    
+
     int n = atoi(argv[argc-1]);
-    
+
     int i = mode == RANGE_MODE ? 0 : n;
-    for ( ; i<=n; ++i )
+    for ( ; i <= n; ++i )
         calcFibonacci(i);
 
     return 0;
