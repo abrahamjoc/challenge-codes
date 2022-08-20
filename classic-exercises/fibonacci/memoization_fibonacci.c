@@ -9,18 +9,18 @@ double fibonacci(int n) {
     if ( memoization[n] >= 0 ) return memoization[n];
     if ( n == 0 ) return 0;
     if ( n == 1 ) return 1;
-    double val = fibonacci(n-2)+fibonacci(n-1);
-    memoization[n] = val;
-    return val;
+    double r = fibonacci(n-2)+fibonacci(n-1);
+    memoization[n] = r;
+    return r;
 }
 
 void calcFibonacci(int n) {
-    double fibonacciCache[n+1];
+    double cache[n+1];
     for ( int i=0; i<=n; ++i )
-        fibonacciCache[i] = -1;
-    fibonacciCache[0] = 0;
-    fibonacciCache[1] = 1;
-    memoization = fibonacciCache;
+        cache[i] = -1;
+    cache[0] = 0;
+    cache[1] = 1;
+    memoization = cache;
 
     clock_t bt = clock();
     double r = fibonacci(n);
@@ -47,9 +47,9 @@ int main(int argc, char* argv[]) {
     }
     
     int n = atoi(argv[argc-1]);
-    for ( int i=(mode == RANGE_MODE ? 0:n); i<=n; ++i ) {
+    int i = mode == RANGE_MODE ? 0 : n;
+    for ( ; i<=n; ++i )
         calcFibonacci(i);
-    }
 
     return 0;
 }
