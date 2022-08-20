@@ -1,12 +1,17 @@
+.PHONY: clean run
+
 CC = gcc
 CFLAGS  = -g -Wall
 
-TARGET = recursive_fibonacci
+TARGET = recursive_fibonacci memoization_fibonacci
 
 all: $(TARGET)
 
-$(TARGET): $(TARGET).c
-	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
+recursive_fibonacci: recursive_fibonacci.c
+	$(CC) $(CFLAGS) -o recursive_fibonacci recursive_fibonacci.c
+
+memoization_fibonacci: memoization_fibonacci.c
+	$(CC) $(CFLAGS) -o memoization_fibonacci memoization_fibonacci.c
 
 clean:
 	$(RM) $(TARGET)
