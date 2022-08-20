@@ -36,7 +36,7 @@ int main(int argc, char* argv[]) {
 
     int n = atoi(argv[argc-1]);
 
-    int i = mode == RANGE_MODE ? 0 : n;
+    int i = (mode == RANGE_MODE) ? 0 : n;
     for ( ; i <= n; ++i )
         calcFibonacci(i);
 
