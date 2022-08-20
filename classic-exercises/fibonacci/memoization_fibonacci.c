@@ -7,8 +7,6 @@ double *memoization;
 
 double fibonacci(int n) {
     if ( memoization[n] >= 0 ) return memoization[n];
-    if ( n == 0 ) return 0;
-    if ( n == 1 ) return 1;
     double r = fibonacci(n-2)+fibonacci(n-1);
     memoization[n] = r;
     return r;
