@@ -15,13 +15,6 @@ double fibonacci(int n) {
 }
 
 void calcFibonacci(int n) {
-    double cache[n+1];
-    for ( int i=0; i<=n; ++i )
-        cache[i] = -1;
-    cache[0] = 0;
-    cache[1] = 1;
-    memoization = cache;
-
     clock_t bt = clock();
     double r = fibonacci(n);
     clock_t et = clock();
@@ -47,6 +40,14 @@ int main(int argc, char* argv[]) {
     }
     
     int n = atoi(argv[argc-1]);
+    
+    double cache[n+1];
+    for ( int i=0; i<=n; ++i )
+        cache[i] = -1;
+    cache[0] = 0;
+    cache[1] = 1;
+    memoization = cache;
+
     int i = mode == RANGE_MODE ? 0 : n;
     for ( ; i<=n; ++i )
         calcFibonacci(i);

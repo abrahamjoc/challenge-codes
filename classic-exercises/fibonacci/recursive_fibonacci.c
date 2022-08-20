@@ -14,7 +14,7 @@ void calcFibonacci(int n) {
     double r = fibonacci(n);
     clock_t et = clock();
     double secs = difftime(et, bt) / CLOCKS_PER_SEC;
-    
+
     printf("f(%d)=%.0f executed in %.0f secs.\n", n, r, secs);
 }
 
@@ -35,6 +35,7 @@ int main(int argc, char* argv[]) {
     }
     
     int n = atoi(argv[argc-1]);
+    
     int i = mode == RANGE_MODE ? 0 : n;
     for ( ; i<=n; ++i )
         calcFibonacci(i);
