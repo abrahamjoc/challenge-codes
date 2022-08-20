@@ -16,8 +16,8 @@ void calcFibonacci(int n) {
     clock_t bt = clock();
     double r = fibonacci(n);
     clock_t et = clock();
-    double secs = difftime(et, bt) / CLOCKS_PER_SEC;
 
+    double secs = difftime(et, bt) / CLOCKS_PER_SEC;
     printf("f(%d)=%.0f executed in %.0f secs.\n", n, r, secs);
 }
 
