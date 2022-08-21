@@ -40,10 +40,10 @@ int main(int argc, char* argv[]) {
     int n = atoi(argv[argc-1]);
 
     double cache[n+1];
+    memoization = cache;
     cache[0] = 0;
     cache[1] = 1;
     for ( int i=2; i <= n; ++i ) cache[i] = -1;
-    memoization = cache;
 
     int i = (mode == RANGE_MODE) ? 0 : n;
     for ( ; i <= n; ++i )
