@@ -18,12 +18,12 @@ make
 ```
 
 ### Exercise Table:
-| N   | Exercise                                         | Description                                                                 | Efficiency | Run                          |
-|-----|--------------------------------------------------|-----------------------------------------------------------------------------|------------|------------------------------|
-| 1   | Recursion                                        | *Fibonacci using double recursion and exploring how works.*                 | BAD        | `./recursive_fibonacci N`    |
-| 2   | Recursion with Memoization only                  | *Fibonacci using double recursion with memoization (cache).*                | REGULAR    | `./memoization_fibonacci N`  |
-| 3   | Dynamic Programming using the Bottom-up strategy | *Fibonacci using DP where you constructing the solution in an array.*       | GOOD       | `./dp_bottom_up_fibonacci N` |
-| 4   | Dynamic Programming using the Top-down strategy  | *Fibonacci using DP where you constructing the solution using memoization.* | EXCELLENT  | `./dp_top_down_fibonacci N`  |
+| N   | Exercise                                         | Description                                                              | Efficiency | Run                          |
+|-----|--------------------------------------------------|--------------------------------------------------------------------------|------------|------------------------------|
+| 1   | Recursion                                        | *Fibonacci using double recursion and exploring how works.*              | BAD        | `./recursive_fibonacci N`    |
+| 2   | Recursion with Memoization only                  | *Fibonacci using double recursion with memoization (cache).*             | REGULAR    | `./memoization_fibonacci N`  |
+| 3   | Dynamic Programming using the Bottom-up strategy | *Fibonacci using DP where you construct the solution in an array.*       | GOOD       | `./dp_bottom_up_fibonacci N` |
+| 4   | Dynamic Programming using the Top-down strategy  | *Fibonacci using DP where you construct the solution using memoization.* | EXCELLENT  | `./dp_top_down_fibonacci N`  |
 
 ### Topics, Concepts and References of Interest:
 | Topic                         | Link                                                        |
