@@ -14,6 +14,11 @@ basically for my fun and curiosity.
 | [Hangman Game](./projects/hangman-game)   | JS       | Hangman Game is a game where you have to figure out a suggested word before you lose all tries. |
 | [Sudoku Solver](./projects/sudoku-solver) | Go       | Sudoku Solver using backtracking algorithm.                                                     |
 
+### Classic Exercises
+| Challenge                                  | Language | Description                                                                                                                        |
+|--------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------|
+| [Fibonacci](./classic-exercises/fibonacci) | C        | The Fibonacci sequence is a set of steadily increasing numbers where each number is equal to the sum of the preceding two numbers. |
+
 ### Languages
 | Name                                                  | Documentation                                   |
 |-------------------------------------------------------|-------------------------------------------------|
