@@ -3,6 +3,18 @@
 #include <time.h>
 #include <unistd.h>
 
+
+/*
+ *  This code explains how works fibonacci using double recursion with memoization technique. 
+ *  How to run: ./recursive_fibonacci -r N
+ * 
+ *  NOTE: -r flag is optional. If you use the program will calculate range fib(0..N) 
+ */
+
+
+/*
+ * Fibonacci: calculator
+ */
 double fibonacci(int n, double *memoization) {
     if ( memoization[n] >= 0 )
         return memoization[n];
@@ -17,6 +29,9 @@ double fibonacci(int n, double *memoization) {
     return memoization[n];
 }
 
+/*
+ * CalcFibonacci: wrapper function to call fibonacci calculator and show how many time take the calculation.
+ */
 void calcFibonacci(int n, double *memoization) {
     clock_t bt = clock();
     double r = fibonacci(n, memoization);
@@ -26,6 +41,9 @@ void calcFibonacci(int n, double *memoization) {
     printf("f(%d)=%.0f executed in %.0f secs.\n", n, r, secs);
 }
 
+/*
+ * NewMemoizationArray: memoization array initialization with memory heap.
+ */
 double* newMemoizationArray(int n) {
     double *cache = (double*) malloc( (n+1) * sizeof(double) );
     cache[0] = 0;
