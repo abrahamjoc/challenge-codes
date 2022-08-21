@@ -2,4 +2,5 @@
 .vscode/
 recursive_fibonacci
 memoization_fibonacci
-dynamic_programming_fibonacci
+dp_bottom_up_fibonacci
+dp_top_down_fibonacci
