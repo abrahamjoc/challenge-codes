@@ -4,3 +4,4 @@ recursive_factorial
 dp_bottom_up_factorial
 dp_top_down_factorial
 static_factorial
+for_factorial
