@@ -5,7 +5,7 @@
 
 
 /*
- *  This code explains how works factorial using recursion. 
+ *  This code explains how works factorial using recursion with static variable. 
  *  How to run: ./static_factorial N
  */
 
