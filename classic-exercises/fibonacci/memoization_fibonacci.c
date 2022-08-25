@@ -6,7 +6,7 @@
 
 /*
  *  This code explains how works fibonacci using double recursion with memoization technique. 
- *  How to run: ./recursive_fibonacci -r N
+ *  How to run: ./memoization_fibonacci -r N
  * 
  *  NOTE: -r flag is optional. If you use the program will calculate range fib(0..N) 
  */
