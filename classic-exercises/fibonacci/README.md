@@ -4,10 +4,10 @@ This exercise is one of the most famous exercises to explain how `Recursion` wor
 It's useful for explaining `Dynamic Programming` too.
 
 This exercise was resolved generating 4 ways:
-- Recursion
-- Recursion with memoization only.
-- Dynamic Programming using the bottom-up strategy.
-- Dynamic Programming using the top-down strategy.
+- [Recursion](./recursive_fibonacci.c).
+- [Recursion with memoization only](./memoization_fibonacci.c).
+- [Dynamic Programming using the bottom-up strategy](./dp_bottom_up_fibonacci.c).
+- [Dynamic Programming using the top-down strategy](./dp_top_down_fibonacci.c).
 
 **NOTE**:
 This video https://www.youtube.com/watch?v=C240g6_Dsl4 of `BettaTech` reminded me how interesting this exercise is.

@@ -3,11 +3,11 @@
 This exercise is the most famous exercises to explain how `Recursion` works.
 
 This exercise was resolved generating 5 ways:
-- For Loop.
-- Recursion.
-- Recursion with static variable.
-- Dynamic Programming using the bottom-up strategy.
-- Dynamic Programming using the top-down strategy.
+- [For Loop](./for_factorial.c).
+- [Recursion](./recursive_factorial.c).
+- [Recursion with static variable](./static_factorial.c).
+- [Dynamic Programming using the bottom-up strategy](./dp_bottom_up_factorial.c).
+- [Dynamic Programming using the top-down strategy](./dp_top_down_factorial.c).
 
 #### How to compile:
 ```shell
