@@ -17,6 +17,7 @@ basically for my fun and curiosity.
 ### Classic Exercises
 | Challenge                                  | Language | Description                                                                                                                        |
 |--------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------|
+| [Factorial](./classic-exercises/factorial) | C        | The Factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n.         |
 | [Fibonacci](./classic-exercises/fibonacci) | C        | The Fibonacci sequence is a set of steadily increasing numbers where each number is equal to the sum of the preceding two numbers. |
 
 ### Languages
