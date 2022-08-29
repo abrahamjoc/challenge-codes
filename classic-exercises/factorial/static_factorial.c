@@ -15,10 +15,10 @@
  */
 double factorial(int n) {
     if ( n == 0 ) return -1;
-    static double result = 1;
-    result = result * n;
+    static double accum = 1;
+    accum = accum * n;
     factorial(n-1);
-    return result;
+    return accum;
 }
 
 /*
