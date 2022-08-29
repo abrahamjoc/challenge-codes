@@ -5,7 +5,7 @@ It's useful for explaining `Dynamic Programming` too.
 
 This exercise was resolved generating 4 ways:
 - [Recursion](./recursive_fibonacci.c#L18-L22).
-- [Recursion with memoization only](./memoization_fibonacci.c#L21-L26).
+- [Recursion with memoization only](./memoization_fibonacci.c#L19-L26).
 - [Dynamic Programming using the bottom-up strategy](./dp_bottom_up_fibonacci.c#L18-L27).
 - [Dynamic Programming using the top-down strategy](./dp_top_down_fibonacci.c#L18-L30).
 
