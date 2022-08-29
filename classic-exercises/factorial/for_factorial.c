@@ -16,10 +16,10 @@
  * Factorial: calculator
  */
 double factorial(int n) {
-    double result = 1;
+    double accum = 1;
     for ( int i=1; i <= n; ++i )
-        result = result * i;
-    return result;
+        accum = accum * i;
+    return accum;
 }
 
 /*
